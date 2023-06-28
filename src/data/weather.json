@@ -1,0 +1,14 @@
+{
+  "sunrise": "",
+  "sunset": "",
+  "temp": {
+    "celsius": "",
+    "fahrenheit": ""
+  },
+  "humidity": "",
+  "wind": "",
+  "precipitation": "",
+  "uv": "",
+  "feels": "",
+  "chancesofrain": ""
+}
