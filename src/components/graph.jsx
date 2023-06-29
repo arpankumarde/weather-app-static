@@ -2,7 +2,9 @@ import React from 'react';
 
 const Graph = () => {
     return (
-        <div>Graph</div>
+        <section className='bg-white p-4 rounded-3xl my-8'>
+            Graph
+        </section>
     )
 }
 

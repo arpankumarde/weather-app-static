@@ -1,14 +1,19 @@
 {
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "07:19",
+  "sunset": "19:32",
   "temp": {
-    "celsius": "",
-    "fahrenheit": ""
+    "celsius": "27",
+    "fahrenheit": "42",
+    "comment": "Sunny"
   },
-  "humidity": "",
-  "wind": "",
-  "precipitation": "",
-  "uv": "",
-  "feels": "",
-  "chancesofrain": ""
+  "precipitationData": [],
+  "humidity": "82",
+  "wind": "8",
+  "precipitation": "14",
+  "uv": "4",
+  "feels": {
+    "celsius": "30",
+    "fahrenheit": "86"
+  },
+  "chancesofrain": "42"
 }

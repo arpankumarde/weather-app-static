@@ -13,6 +13,10 @@ export default {
         'blue': {
           light: '#E4F1FF',
           dark: '#5C9CE5'
+        },
+        'gray': {
+          light: '#DCDCDC',
+          dark: '#646464'
         }
       }
     },

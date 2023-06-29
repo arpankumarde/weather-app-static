@@ -7,3 +7,18 @@
 body {
   @apply font-nunito;
 }
+
+progress {
+  @apply rounded-full h-2;
+}
+
+progress::-webkit-progress-bar {
+  @apply rounded-full bg-gray-light;
+}
+
+progress::-webkit-progress-value {
+  @apply bg-blue-dark rounded-full;
+}
+progress::-moz-progress-bar {
+  @apply rounded-full bg-gray-light;
+}
