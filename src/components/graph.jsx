@@ -14,7 +14,7 @@ const Graph = ({ data, tempf }) => {
                     <button className='inline-flex items-center text-base px-2 rounded-full py-0.5 bg-[#F1F1F1]'>Next days <FiChevronRight /></button>
                 </div>
             </div>
-            <div className='flex justify-between px-2'>
+            <div className='flex justify-between pl-2'>
                 {data.map((inst, key) =>
                     <div key={key} className='flex flex-col gap-1'>
                         <span className={`text-xs mx-auto ${(inst.time == 'Now') ? 'font-semibold' : null}`}>{inst.time}</span>
@@ -46,7 +46,7 @@ const Graph = ({ data, tempf }) => {
             <div className='flex justify-between'>
                 {data.map((inst, key) =>
                     <div className='flex flex-col items-center -mt-1'>
-                        <span className='-mb-1 select-none'>I</span>
+                        <span className='-mb-1 select-none'><RxDividerVertical /></span>
                         <span key={key} className={key < 4 ? 'text-left' : 'text-right'}>{inst.ppt}%</span>
                     </div>
                 )}
