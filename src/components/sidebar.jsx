@@ -6,7 +6,7 @@ import { FiSunset, FiSunrise, FiChevronLeft, FiChevronRight, FiSun } from 'react
 const Sidebar = ({ tempf, setTempf, weather, user }) => {
     return (
         <aside className='flex flex-col w-[23%] bg-blue-dark text-white h-screen'>
-            <div className='flex justify-between p-6'>
+            <section className='flex justify-between p-6'>
                 <button className='text-2xl'>
                     <BsFillPlusSquareFill className='rounded-lg' />
                 </button>
@@ -19,7 +19,7 @@ const Sidebar = ({ tempf, setTempf, weather, user }) => {
                         checked={tempf} />
                     <button className={`${tempf && 'font-bold'} hover:cursor-pointer`} onClick={() => setTempf(true)}><sup>o</sup>F</button>
                 </div>
-            </div>
+            </section>
             <section className='flex flex-col p-6'>
                 <div className='flex justify-between items-end'>
                     <span className='inline-flex items-center gap-2 text-lg'><IoNavigateOutline />{user.location}</span>
@@ -38,6 +38,9 @@ const Sidebar = ({ tempf, setTempf, weather, user }) => {
             <section className='flex justify-center items-center gap-2 text-xl'>
                 <FiSun />
                 <span className=''>{weather.temp.comment}</span>
+            </section>
+            <section className='pt-6'>
+                <img src="https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/SunnyDayV3.svg" alt="sunnyDay" className='mx-auto h-32' draggable='false' />
             </section>
         </aside>
     )

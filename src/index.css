@@ -19,6 +19,28 @@ progress::-webkit-progress-bar {
 progress::-webkit-progress-value {
   @apply bg-blue-dark rounded-full;
 }
+
 progress::-moz-progress-bar {
   @apply rounded-full bg-gray-light;
+}
+
+img,
+svg {
+  @apply select-none pointer-events-none;
+}
+
+button {
+  @apply select-none;
+}
+
+/* For Webkit Browsers: Chrome, Safari, Opera */
+main::-webkit-scrollbar {
+  display: none;
+}
+
+main {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }

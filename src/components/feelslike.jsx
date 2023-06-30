@@ -16,7 +16,7 @@ const FeelsLike = ({ feels, tempf }) => {
                     <span className='text-xs'>o</span>
                 </div>
                 <div className='flex flex-col justify-between gap-1 text-gray-dark w-full'>
-                    <div className="flex justify-between text-sm">
+                    <div className="flex justify-between  font-light text-xs">
                         <span className='w-1/3 text-left'>{tempf ? 32 : 0}<sup>o</sup></span>
                         <span className='w-1/3 text-center'>{tempf ? 77 : 25}<sup>o</sup></span>
                         <span className='w-1/3 text-right'>{tempf ? 122 : 50}<sup>o</sup></span>

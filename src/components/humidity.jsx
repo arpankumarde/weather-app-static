@@ -17,7 +17,7 @@ const Humidity = ({ value }) => {
                     <span className='text-2xl font-extrabold'>{value}%</span>
                     <span>{value < 33.33 ? 'good' : (value < 66.66) ? 'normal' : 'bad'}</span>
                 </div>
-                <div className='flex justify-between gap-4 text-gray-dark w-full'>
+                <div className='flex justify-between gap-4 text-gray-dark w-full font-light text-sm'>
                     <div className="flex flex-col w-1/3">
                         good
                         <progress value={value} max={33.33} className='rounded-full w-full' />

@@ -14,7 +14,7 @@ const Precipitation = ({ value }) => {
                 <div className='flex gap-2 items-end py-2'>
                     <span className='text-2xl font-extrabold'>{value / 10} cm</span>
                 </div>
-                <div className='flex justify-between gap-0 text-gray-dark text-xs w-full'>
+                <div className='flex justify-between gap-0 text-gray-dark font-light text-xs w-full'>
                     <div className="flex flex-col w-[1/10%]">
                         <span>0<span className='text-transparent'>0</span></span>
                         <progress value={value} max={10} className='rounded-full w-full' />

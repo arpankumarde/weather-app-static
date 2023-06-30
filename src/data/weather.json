@@ -8,36 +8,52 @@
   },
   "precipitationData": [
     {
-      "time": "23%",
-      "ppt": 23
+      "time": "Now",
+      "ppt": 23,
+      "temp": 27,
+      "wtype": "sunny"
     },
     {
-      "time": "29%",
-      "ppt": 29
+      "time": "11:00",
+      "ppt": 29,
+      "temp": 28,
+      "wtype": "sunny"
     },
     {
-      "time": "58%",
-      "ppt": 58
+      "time": "12:00",
+      "ppt": 58,
+      "temp": 28,
+      "wtype": "cloudy"
     },
     {
-      "time": "75%",
-      "ppt": 75
+      "time": "13:00",
+      "ppt": 75,
+      "temp": 29,
+      "wtype": "cloudy"
     },
     {
-      "time": "33%",
-      "ppt": 33
+      "time": "14:00",
+      "ppt": 33,
+      "temp": 30,
+      "wtype": "sunny"
     },
     {
-      "time": "20%",
-      "ppt": 20
+      "time": "15:00",
+      "ppt": 20,
+      "temp": 29,
+      "wtype": "cloudy"
     },
     {
-      "time": "73%",
-      "ppt": 73
+      "time": "16:00",
+      "ppt": 73,
+      "temp": 29,
+      "wtype": "cloudy"
     },
     {
-      "time": "49%",
-      "ppt": 49
+      "time": "17:00",
+      "ppt": 49,
+      "temp": 28,
+      "wtype": "sunny"
     }
   ],
   "humidity": "82",

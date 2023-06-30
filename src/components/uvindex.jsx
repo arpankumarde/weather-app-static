@@ -15,7 +15,7 @@ const UVIndex = ({ value }) => {
                     <span className='text-2xl font-extrabold'>{value}</span>
                     <span>{(value <= 2) ? 'low' : (value <= 5) ? 'medium' : (value <= 7) ? 'high' : (value <= 10) ? 'extreme' : 'too extreme'}</span>
                 </div>
-                <div className='flex justify-between gap-4 text-gray-dark text-sm w-full'>
+                <div className='flex justify-between gap-4 text-gray-dark w-full font-light text-xs'>
                     <div className="flex flex-col w-1/5">
                         0-2
                         <progress value={value} max={2} className='rounded-full w-full' />
