@@ -5,7 +5,7 @@ import { FiSunset, FiSunrise, FiChevronLeft, FiChevronRight, FiSun } from 'react
 
 const Sidebar = ({ tempf, setTempf, weather, user }) => {
     return (
-        <aside className='flex flex-col w-[25%] bg-blue-dark text-white h-screen'>
+        <aside className='flex flex-col w-[23%] bg-blue-dark text-white h-screen'>
             <div className='flex justify-between p-6'>
                 <button className='text-2xl'>
                     <BsFillPlusSquareFill className='rounded-lg' />

@@ -6,7 +6,40 @@
     "fahrenheit": "42",
     "comment": "Sunny"
   },
-  "precipitationData": [],
+  "precipitationData": [
+    {
+      "time": "23%",
+      "ppt": 23
+    },
+    {
+      "time": "29%",
+      "ppt": 29
+    },
+    {
+      "time": "58%",
+      "ppt": 58
+    },
+    {
+      "time": "75%",
+      "ppt": 75
+    },
+    {
+      "time": "33%",
+      "ppt": 33
+    },
+    {
+      "time": "20%",
+      "ppt": 20
+    },
+    {
+      "time": "73%",
+      "ppt": 73
+    },
+    {
+      "time": "49%",
+      "ppt": 49
+    }
+  ],
   "humidity": "82",
   "wind": "8",
   "precipitation": "14",

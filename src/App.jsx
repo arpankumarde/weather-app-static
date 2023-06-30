@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="flex w-full h-full">
       <Sidebar tempf={tempf} setTempf={setTempf} weather={weather} user={user} />
-      <section className="w-[75%] bg-blue-dark h-screen">
+      <section className="w-[77%] bg-blue-dark h-screen">
         <Main tempf={tempf} setTempf={setTempf} weather={weather} user={user} />
       </section>
     </div>

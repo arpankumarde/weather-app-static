@@ -9,7 +9,7 @@ const Welcome = ({ User, Avatar }) => {
                 <span>Check out today's weather information</span>
             </div>
             <div className='flex items-center gap-4'>
-                <button className='hover:bg-blue-dark hover:bg-opacity-40 transition-all duration-300 ease-in-out rounded-full p-2 text-xl'><FiMoreHorizontal /></button>
+                <button className='hover:bg-blue-dark hover:bg-opacity-20 transition-all duration-300 ease-in-out rounded-full p-2 text-xl'><FiMoreHorizontal /></button>
                 <button><img src={Avatar} alt="avatar" className='h-10 rounded-xl' /></button>
             </div>
         </section>

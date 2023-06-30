@@ -4,12 +4,12 @@ import { Avatar } from '../static/avatar';
 
 const Main = ({ tempf, setTempf, user, weather }) => {
     return (
-        <main className='bg-blue-light p-10 rounded-l-[2.5rem] h-screen'>
+        <main className='bg-blue-light p-8 rounded-l-[2.5rem] h-screen overflow-scroll'>
             <Welcome User={user} Avatar={Avatar} />
-            <Graph />
+            <Graph data={weather.precipitationData} />
             <section>
                 <span className='font-bold'>More details of today's weather</span>
-                <div className='flex justify-center flex-wrap gap-10 my-6'>
+                <div className='flex justify-center flex-wrap gap-8 mt-6'>
                     <Humidity value={weather.humidity} />
                     <Wind value={weather.wind} />
                     <Precipitation value={weather.precipitation} />
